@@ -1,6 +1,6 @@
 import "./App.css";
 import CategoryGrid from "./components/CategoryGrid";
-// import ProductSlider from "./components/ProductSlider";
+import ProductSlider from "./components/ProductSlider";
 import PromoSection from "./components/PromoSection";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <PromoSection />
       <CategoryGrid />
-      {/* <ProductSlider /> */}
+      <ProductSlider />
     </>
   );
 }
